@@ -1,0 +1,103 @@
+.footer {
+  display: flex;
+  justify-content: center;
+
+  width: 100vw;
+  height: 344px;
+  background-color: #272934;
+  margin-top: 70px;
+}
+
+.footer_container {
+  max-width: 1280px;
+  display: flex;
+  justify-content: space-between;
+  padding: 53px 40px 55px 40px;
+}
+
+.footer_container {
+  width: 1280px;
+}
+
+.left {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 236px;
+}
+
+.left_title {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  margin: 0;
+  color: #ffffff;
+}
+
+.left_list {
+  margin: 0;
+  padding: 0;
+}
+
+.left_list li {
+  list-style-type: none;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  color: #f2f4f7;
+}
+
+.left_list li:not(:last-child) {
+  margin-bottom: 6px;
+}
+
+.left_tag {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  color: #f2f4f7;
+}
+
+.center {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.center_polit {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: right;
+  color: #f2f4f7;
+}
+
+.right {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.right_list {
+  display: flex;
+}
+
+.right_list span {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  color: #ffffff;
+}
+
+.right_list span:not(:last-child) {
+  margin-right: 46px;
+}
+
+.social {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.img {
+  margin-right: 44px;
+}

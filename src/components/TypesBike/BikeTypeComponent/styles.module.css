@@ -1,0 +1,15 @@
+.bikeType_container {
+  width: 100%;
+  background: #f2f4f7;
+  border-radius: 20px;
+  padding: 33px 40px 15px 40px;
+}
+
+.bikeType_title {
+  display: block;
+  margin-bottom: 25px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+  color: #abb1c5;
+}

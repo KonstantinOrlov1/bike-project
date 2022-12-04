@@ -1,0 +1,22 @@
+.root {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.title {
+  display: block;
+  margin-top: 0;
+  margin-bottom: 30px;
+  font-weight: 600;
+  font-size: 34px;
+  line-height: 120%;
+  color: #14233d;
+}
+
+.img {
+  display: block;
+  width: 500px;
+  height: 400px;
+}

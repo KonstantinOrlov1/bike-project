@@ -1,0 +1,50 @@
+.root {
+  display: flex;
+  flex-direction: column;
+}
+
+.model_free {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  color: #14233d;
+  margin-bottom: 11px;
+}
+
+.model_busy {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  color: #abb1c5;
+  margin-bottom: 11px;
+}
+
+.price_free {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 22px;
+  color: #297fff;
+  margin-bottom: 16px;
+}
+
+.price_busy {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 22px;
+  color: #abb1c5;
+  margin-bottom: 16px;
+}
+
+.btn_busy {
+  display: block;
+  height: 40px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+  text-transform: uppercase;
+  color: #abb1c5;
+  background: #ffffff;
+  border: 1px solid #dde3eb;
+  border-radius: 10px;
+  cursor: pointer;
+}

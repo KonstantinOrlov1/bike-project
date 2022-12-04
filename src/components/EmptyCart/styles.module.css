@@ -1,0 +1,19 @@
+.title {
+  display: block;
+  width: 787px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 120%;
+  color: #14233d;
+}
+
+.img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 400px;
+  height: 400px;
+}

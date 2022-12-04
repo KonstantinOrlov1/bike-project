@@ -1,0 +1,22 @@
+.root {
+  background: #f2f4f7;
+  border-radius: 20px;
+  padding: 40px;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.btn_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.load {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

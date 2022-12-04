@@ -1,0 +1,42 @@
+.root {
+  display: flex;
+  flex-direction: column;
+  width: 260px;
+  height: 361px;
+  background: #ffffff;
+  border-radius: 15px;
+  margin-bottom: 40px;
+  padding: 16px 15px 20px 15px;
+}
+
+.root:not(:nth-child(4n)) {
+  margin-right: 40px;
+}
+
+.time {
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 22px;
+  color: #abb1c5;
+  margin-bottom: 15px;
+}
+
+.img_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 140px;
+  width: 230px;
+  background: #f2f4f7;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+.img {
+  width: 177px;
+  height: 93px;
+}
+
+.free {
+  color: red;
+}

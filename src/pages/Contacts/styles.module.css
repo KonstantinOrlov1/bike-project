@@ -1,0 +1,40 @@
+.root {
+  width: 100%;
+  background: #f2f4f7;
+  border-radius: 20px;
+  padding: 30px 40px;
+}
+
+.title {
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 120%;
+  color: #14233d;
+  margin-top: 0;
+  margin-bottom: 40px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.elem:not(:last-child) {
+  margin-bottom: 30px;
+}
+
+.elem_title {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+  color: #abb1c5;
+}
+
+.elem_content {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 22px;
+  color: #14233d;
+}

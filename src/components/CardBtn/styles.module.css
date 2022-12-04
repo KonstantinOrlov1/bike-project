@@ -1,0 +1,32 @@
+.btn_busy {
+  display: block;
+  height: 40px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+  text-transform: uppercase;
+  color: #abb1c5;
+  background: #ffffff;
+  border: 1px solid #dde3eb;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.btn_free {
+  display: block;
+  width: 211px;
+  height: 40px;
+  background: #ffffff;
+  border-radius: 15px;
+  border-color: #297fff;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+  text-transform: uppercase;
+  color: #297fff;
+}
+
+.action {
+  color: #ffffff;
+  background: #297fff;
+}

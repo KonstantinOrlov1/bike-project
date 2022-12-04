@@ -1,0 +1,88 @@
+.options {
+  margin-top: 29px;
+  display: flex;
+}
+
+.option:not(:last-child) {
+  margin-right: 60px;
+}
+
+.option_title {
+  display: block;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+  color: #abb1c5;
+  margin-bottom: 15px;
+}
+
+.select {
+  width: 260px;
+  height: 60px;
+  background: #ffffff;
+  border: 1px solid #dde3eb;
+  border-radius: 15px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  color: #14233d;
+}
+
+.tabs {
+  width: 260px;
+  height: 60px;
+  background-color: #ffffff;
+  border: 1px solid #dde3eb;
+  border-radius: 15px;
+  padding: 7px 6px;
+}
+
+.prompt {
+  display: flex;
+  padding-top: 30px;
+  align-items: center;
+}
+
+.root {
+  display: inline-flex;
+  height: 100%;
+  width: 50%;
+  align-items: center;
+  justify-content: center;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  color: #14233d;
+  text-decoration: none;
+}
+
+/* .active {
+  color: #ffffff;
+  background: #297fff;
+  border-radius: 10px;
+} */
+
+.day {
+  color: #ffffff;
+  background: #297fff;
+  border-radius: 10px;
+}
+
+.hour {
+  color: #ffffff;
+  background: #297fff;
+  border-radius: 10px;
+}
+
+.img {
+  height: 50px;
+  width: 70px;
+  margin-right: 15px;
+}
+
+.text {
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 22px;
+  color: #1f9bfa;
+}

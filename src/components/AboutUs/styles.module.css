@@ -1,0 +1,39 @@
+.root {
+  background: #f2f4f7;
+  border-radius: 20px;
+  padding: 30px 40px;
+  width: 100%;
+  margin-bottom: 50px;
+}
+
+.title {
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 120%;
+  color: #14233d;
+  margin-top: 0;
+  margin-bottom: 45px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.text_container {
+  width: 530px;
+  margin-right: 100px;
+}
+
+.btn {
+  width: 560px;
+}
+
+.text {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 140%;
+  color: #14233d;
+  margin-top: 0;
+  margin-bottom: 15px;
+}

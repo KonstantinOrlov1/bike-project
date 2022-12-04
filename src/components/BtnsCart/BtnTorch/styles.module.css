@@ -1,0 +1,19 @@
+.btn {
+  display: block;
+  width: 40px;
+  height: 40px;
+  background: #ffffff;
+  border: 1px solid #dde3eb;
+  border-radius: 10px;
+  padding: 0;
+  margin-right: 60px;
+  cursor: pointer;
+}
+
+.btn:not(:last-child) {
+  margin-right: 60px;
+}
+
+.select {
+  background-color: #297fff;
+}

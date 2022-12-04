@@ -1,0 +1,23 @@
+@font-face {
+  font-family: "Mostserrat";
+  src: url(/fonts/static/Montserrat-Medium.ttf);
+}
+
+.root {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: "Mostserrat";
+}
+
+.container {
+  max-width: 1280px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-right: auto;
+  margin-left: auto;
+}

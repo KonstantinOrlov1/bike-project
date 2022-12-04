@@ -1,0 +1,23 @@
+.root {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+
+.model {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  color: #14233d;
+  margin-bottom: 5px;
+}
+
+.price {
+  display: inline-block;
+  font-weight: 500;
+  font-size: 21px;
+  line-height: 22px;
+  text-align: right;
+  color: #297fff;
+}

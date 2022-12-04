@@ -1,0 +1,42 @@
+.btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background: #297fff;
+  border-radius: 10px;
+  color: #ffffff;
+  font-style: normal;
+  border: 0;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.s {
+  padding: 12px 31px 11px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+}
+
+.m {
+  padding: 9px 61px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+}
+
+.l {
+  width: 260px;
+  padding: 19px 94px;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 22px;
+}
+
+.xl {
+  padding: 19px 221px;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 22px;
+}
