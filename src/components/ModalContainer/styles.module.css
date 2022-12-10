@@ -1,0 +1,60 @@
+.modal_container {
+  background-color: rgb(227, 227, 227);
+  width: 500px;
+  height: 300px;
+  border-radius: 20px;
+  padding: 15px 25px;
+}
+
+.modal_title {
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 140%;
+}
+
+.scene {
+  position: relative;
+  overflow: hidden;
+}
+
+.scene:hover::before,
+.scene:hover::after {
+  transform: none;
+}
+
+.scene::before,
+.scene::after {
+  position: absolute;
+  right: 0;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  background-color: rgb(17, 31, 31);
+  transition: 0.3s ease-in-out;
+}
+
+.scene::before {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(231, 228, 167);
+  padding: 15px 25px;
+  content: "Мы любим читающих пользователей. Скажите кодовое слово 'ВЕЛОСИПЕД' доставщику и получите";
+  top: 0;
+  bottom: 50%;
+  transform: translateY(-100%);
+}
+
+.scene::after {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  content: "Промокод на скидку 30%";
+  font-weight: 700;
+  font-size: 25px;
+  color: white;
+  padding: 0 25px;
+  top: 50%;
+  bottom: 0;
+  transform: translateY(100%);
+}
