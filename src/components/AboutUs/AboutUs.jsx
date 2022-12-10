@@ -1,8 +1,15 @@
 import React from "react";
+import { useState } from "react";
+import { ModalContainer } from "../ModalContainer/ModalContainer";
 import img1 from "./imgs/img1.png";
 import styles from "./styles.module.css";
 
 export const AboutUs = () => {
+  const [isOpen, setIsOpen] = useState(false);
+  const openModalHandler = () => {
+    setIsOpen(!isOpen);
+  };
+
   return (
     <div className={styles.root}>
       <h1 className={styles.title}>О нас</h1>
@@ -10,8 +17,11 @@ export const AboutUs = () => {
         <div className={styles.text_container}>
           <p className={styles.text}>
             Это современный и удобный сервис, позволяющий Вам взять в аренду и
-            насладиться удовольствием от использования новинок техники и крутых
-            гаджетов по цене, несравнимо меньшей, чем стоимость покупки.
+            насладиться удовольствием от использования{" "}
+            <b className={styles.modal} onClick={openModalHandler}>
+              новинок техники и крутых гаджетов
+            </b>{" "}
+            по цене, несравнимо меньшей, чем стоимость покупки.
           </p>
           <p className={styles.text}>
             Мы стремимся сделать процесс аренды максимально понятным и удобным
@@ -25,6 +35,12 @@ export const AboutUs = () => {
         </div>
         <img src={img1} alt="Велосипедисты" className={styles.btn} />
       </div>
+
+      {isOpen ? (
+        <div className={styles.back} onClick={openModalHandler}>
+          <ModalContainer />
+        </div>
+      ) : null}
     </div>
   );
 };

@@ -9,7 +9,9 @@ export const Review = () => {
   const reviews = useSelector(selectReviewsIdsById);
   const [index, setIndex] = useState(0);
 
-  if (reviews.length === 0) return;
+  if (reviews.length === 0) {
+    return <span>Нет отзывов</span>;
+  }
 
   const { text, userName, image } = reviews[index];
 
@@ -40,7 +42,12 @@ export const Review = () => {
   return (
     <div className={classNames(styles.review, styles.root)}>
       <div className={styles.img_container}>
-        <img src={image} alt="img" className={styles.person_img} />
+        <img
+          src={image}
+          alt="img"
+          className={styles.person_img}
+          loading="lazy"
+        />
         <span className={styles.quote_icon}>
           <FaQuoteRight />
         </span>
